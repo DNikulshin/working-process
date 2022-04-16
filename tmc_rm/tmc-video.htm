@@ -1,0 +1,796 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8">
+<TITLE></TITLE>
+<STYLE TYPE="text/css">
+body { background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R0{ height: 41px; }
+tr.R0 td.R0C0{ font-family: Arial; font-size: 12pt; font-style: normal; font-weight: bold; text-align: center; vertical-align: medium; }
+tr.R1{ height: 15px; }
+tr.R1 td.R10C0{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; background-color: #e0ffe0; vertical-align: bottom; border-left: #000000 1px solid; border-top: #e0ffe0 0px none; border-bottom: #000000 1px solid; }
+tr.R11{ font-family: Arial; font-size: 8pt; font-style: normal; height: 57px; }
+tr.R11 td.R11C0{ text-align: center; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C2{ vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R11 td.R11C3{ text-align: right; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R13{ font-family: Arial; font-size: 8pt; font-style: normal; height: 43px; }
+tr.R13 td.R13C0{ text-align: center; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R13 td.R13C2{ vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R13 td.R13C3{ text-align: right; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R16{ font-family: Arial; font-size: 8pt; font-style: normal; height: 29px; }
+tr.R16 td.R16C0{ text-align: center; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R16 td.R16C2{ vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R16 td.R16C3{ text-align: right; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R2{ height: 20px; }
+tr.R2 td.R2C2{ font-family: Arial; font-size: 9pt; font-style: normal; font-weight: bold; }
+tr.R2 td.R2C4{ border-left: #ffffff 0px none; border-bottom: #ffffff 0px none; }
+tr.R2 td.R2C6{ border-left: #ffffff 0px none; border-bottom: #000000 1px solid; }
+tr.R2 td.R2C9{ border-bottom: #000000 1px solid; }
+tr.R22{ font-family: Arial; font-size: 8pt; font-style: normal; height: 15px; }
+tr.R22 td.R22C0{ text-align: center; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R22 td.R22C2{ vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R22 td.R22C3{ text-align: right; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R22 td.R50C2{ vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+tr.R56{ height: 35px; }
+tr.R56 td.R56C0{ font-family: Arial; font-size: 9pt; font-style: normal; }
+tr.R59{ height: 8px; }
+tr.R6{ height: 17px; }
+tr.R6 td.R6C2{ font-family: Arial; font-size: 9pt; font-style: normal; font-weight: bold; vertical-align: medium; }
+tr.R60{ height: 16px; }
+tr.R60 td.R60C2{ font-family: Arial; font-size: 9pt; font-style: normal; font-weight: bold; }
+tr.R62{ font-family: Arial; font-size: 6pt; font-style: normal; height: 11px; }
+tr.R62 td.R62C2{ text-align: center; vertical-align: top; }
+tr.R62 td.R62C8{ font-family: Arial; font-size: 6pt; font-style: normal; text-align: center; }
+tr.R7{ height: 19px; }
+tr.R7 td.R7C2{ font-family: Arial; font-size: 8pt; font-style: normal; }
+tr.R8{ height: 7px; }
+tr.R9{ font-family: Arial; font-size: 8pt; font-style: normal; font-weight: bold; height: 29px; text-align: center; }
+tr.R9 td.R9C0{ background-color: #ffffc0; vertical-align: medium; border-left: #000000 1px solid; border-top: #000000 1px solid; border-bottom: #000000 1px solid; border-right: #000000 1px solid; }
+table {table-layout: fixed; padding: 0px; padding-left: 2px; vertical-align:bottom; border-collapse:collapse;width: 100%; font-family: Arial; font-size: 8pt; font-style: normal; }
+td { padding: 0px; padding-left: 2px; overflow:hidden; }
+</STYLE>
+</HEAD>
+<BODY STYLE="background: #ffffff; margin: 0; font-family: Arial; font-size: 8pt; font-style: normal; ">
+<TABLE style="width:0px; height:0px; " CELLSPACING=0>
+<COL WIDTH=24>
+<COL WIDTH=70>
+<COL WIDTH=250>
+<COL WIDTH=57>
+<COL WIDTH=77>
+<COL WIDTH=63>
+<COL WIDTH=72>
+<COL WIDTH=62>
+<COL WIDTH=56>
+<COL WIDTH=103>
+<TR CLASS=R0>
+<TD CLASS="R0C0" STYLE=" border-left-style: none; border-top-style: none;"><SPAN></SPAN></TD>
+<TD CLASS="R0C0" COLSPAN=9 STYLE=" border-top-style: none;"><SPAN STYLE="white-space:nowrap;">Акт&nbsp;контрольно-ревизионной&nbsp;проверки&nbsp;по&nbsp;количеству&nbsp;и&nbsp;качеству<BR>от&nbsp;01.01.2022</SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD STYLE=" border-left-style: none;"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR CLASS=R2>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C2" COLSPAN=2><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">Проверка&nbsp;осуществлялась&nbsp;комиссией&nbsp;в&nbsp;составе:</SPAN></TD>
+<TD CLASS="R2C4"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R2>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C4"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C4"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R2>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C4"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C4"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C6"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R1>
+<TD STYLE=" border-left-style: none;"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR CLASS=R6>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:17px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:17px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R6C2" COLSPAN=8><DIV STYLE="width:100%;height:17px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">&nbsp;По&nbsp;подразделению&nbsp;:&nbsp;Склад&nbsp;IT&nbsp;Прометей/Атлант&nbsp;Подольск</SPAN></TD>
+<TD><DIV STYLE="width:100%;height:17px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R7>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:19px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:19px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R7C2" COLSPAN=8><DIV STYLE="width:100%;height:19px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">Сформировано:&nbsp;Никульшин_Дмитрий&nbsp;&nbsp;&nbsp;31.12.2021&nbsp;20:51:36.</SPAN></TD>
+<TD><DIV STYLE="width:100%;height:19px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R8>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:7px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R9>
+<TD CLASS="R9C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">№</SPAN></TD>
+<TD CLASS="R9C0"><SPAN STYLE="white-space:nowrap;">Код</SPAN></TD>
+<TD CLASS="R9C0"><SPAN STYLE="white-space:nowrap;">Товар</SPAN></TD>
+<TD CLASS="R9C0"><SPAN STYLE="white-space:nowrap;">По&nbsp;докум.,<BR>шт.</SPAN></TD>
+<TD CLASS="R9C0"><SPAN STYLE="white-space:nowrap;">Фактически,<BR>шт.</SPAN></TD>
+<TD CLASS="R9C0"><SPAN STYLE="white-space:nowrap;">Недостача,<BR>шт.</SPAN></TD>
+<TD CLASS="R9C0"><SPAN STYLE="white-space:nowrap;">Излишки,<BR>шт.</SPAN></TD>
+<TD CLASS="R9C0" COLSPAN=3><SPAN STYLE="white-space:nowrap;">Причина</SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R1>
+<TD CLASS="R10C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R10C0" COLSPAN=9><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">Видеонаблюдение</SPAN></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">1.</SPAN></TD>
+<TD CLASS="R11C0"><SPAN STYLE="white-space:nowrap;">5 557</SPAN></TD>
+<TD CLASS="R11C2">IP-камера HikVision 4Мп DS-2CD3645FWD-IZS цилиндрическая EXIR ИК 60м, 1/2.5 CMOS, 2.8-12мм, 114°- 32°, ИК-фильтр, H.265/H.264, 2688*1520@25к/с, аудио </TD>
+<TD CLASS="R11C3"><SPAN STYLE="white-space:nowrap;">4</SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">2.</SPAN></TD>
+<TD CLASS="R11C0"><SPAN STYLE="white-space:nowrap;">8 224</SPAN></TD>
+<TD CLASS="R11C2">IP-камера HikVision 5Мп DS-2CD3656G2T-IZS(2,7-13,5) цилиндрическая EXIR 60м, 1/2.7"; 2.7-13.5мм; 101°- 31°; 0.003лк@F1.4; auto Iris; H.265/H.264; 2688</TD>
+<TD CLASS="R11C3"><SPAN STYLE="white-space:nowrap;">30</SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">3.</SPAN></TD>
+<TD CLASS="R13C0"><SPAN STYLE="white-space:nowrap;">8 347</SPAN></TD>
+<TD CLASS="R13C2">LPA-6W, Громкоговоритель настенный, белый, 80-20.000 Гц, 94 дБ, 100 В, 6/3/1,5 Вт LPA-6W (LPA)</TD>
+<TD CLASS="R13C3"><SPAN STYLE="white-space:nowrap;">284</SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">4.</SPAN></TD>
+<TD CLASS="R13C0"><SPAN STYLE="white-space:nowrap;">8 348</SPAN></TD>
+<TD CLASS="R13C2">LPA-6W, Громкоговоритель настенный, черный, 6/3/1,5/0.75 Вт, 80-20.000 Гц, 94 дБ, 100 В (LPA)</TD>
+<TD CLASS="R13C3"><SPAN STYLE="white-space:nowrap;">241</SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">5.</SPAN></TD>
+<TD CLASS="R11C0"><SPAN STYLE="white-space:nowrap;">8 146</SPAN></TD>
+<TD CLASS="R11C2">LTV CNE-620 5G IP видеокамера, 2мп, WDR, фокусное расстояние 5-50мм, моторизованный объектив, -40С + 50С, PoE/12В DC,</TD>
+<TD CLASS="R11C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">6.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">8 147</SPAN></TD>
+<TD CLASS="R16C2">LTV CNE-640 5G ip видеокамера, 4мп, mtz объектив 7-22мм</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">7.</SPAN></TD>
+<TD CLASS="R13C0"><SPAN STYLE="white-space:nowrap;">8 464</SPAN></TD>
+<TD CLASS="R13C2">LTV CNE-650 58 IP камера, 5мп, f=2.8 mm-12mm моторизованный объектив, WDR, H.265 / H.264 / MJPEG, - 40 °C ~ 50 (LTV)</TD>
+<TD CLASS="R13C3"><SPAN STYLE="white-space:nowrap;">160</SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">8.</SPAN></TD>
+<TD CLASS="R13C0"><SPAN STYLE="white-space:nowrap;">8 584</SPAN></TD>
+<TD CLASS="R13C2">LTV CNE-651 58 IP-видеокамера уличная цилиндрическая 5Мп, 2,8-12мм, -40 до +60гр.С LTV</TD>
+<TD CLASS="R13C3"><SPAN STYLE="white-space:nowrap;">251</SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">9.</SPAN></TD>
+<TD CLASS="R13C0"><SPAN STYLE="white-space:nowrap;">7 750</SPAN></TD>
+<TD CLASS="R13C2">LTV CNE-942 41 IP камера, шар, 4мп,1 / 2.7 "CMOS, 2.8 mm, 0.011 lux, DWDR, H.265 / H.264, IP67, - 40 °C ~ 60C LTV</TD>
+<TD CLASS="R13C3"><SPAN STYLE="white-space:nowrap;">7</SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">10.</SPAN></TD>
+<TD CLASS="R13C0"><SPAN STYLE="white-space:nowrap;">7 749</SPAN></TD>
+<TD CLASS="R13C2">LTV CNE-942 58 IP видеокамера, шар, 4мп, MTZ 2.8-12mm, DWDR, H.265 / H.264, IP67, - 40 °C ~ 60 LTV</TD>
+<TD CLASS="R13C3"><SPAN STYLE="white-space:nowrap;">16</SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R13>
+<TD CLASS="R13C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">11.</SPAN></TD>
+<TD CLASS="R13C0"><SPAN STYLE="white-space:nowrap;">7 507</SPAN></TD>
+<TD CLASS="R13C2">LTV CXM-720 41 мультигибридная 2 мп камера,TVI/AHD/CVI/CVBS, f=2,8мм 12В, 4W. -40 °C to 60 °C. Φ 98 mm × 65.4 mm. 240 g LTV</TD>
+<TD CLASS="R13C3"><SPAN STYLE="white-space:nowrap;">2</SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3"><SPAN></SPAN></TD>
+<TD CLASS="R13C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">12.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">5 200</SPAN></TD>
+<TD CLASS="R22C2">MDC-AH7290FK AHD 2.0M кам., ICR, 12В DC</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">5</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">13.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">5 672</SPAN></TD>
+<TD CLASS="R22C2">MDC-AH7290VK AHD 2.0M кам., ICR, 12В DC</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">653</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">14.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">5 201</SPAN></TD>
+<TD CLASS="R16C2">MDR-16590 AHD/TVI Цифр. рег. 16 к, H.264, без HDD</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">102</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">15.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">5 041</SPAN></TD>
+<TD CLASS="R22C2">Блок источника резервного питания БИРП</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">39</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">16.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">420</SPAN></TD>
+<TD CLASS="R22C2">Брелок сигнализации</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">24</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R11>
+<TD CLASS="R11C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">17.</SPAN></TD>
+<TD CLASS="R11C0"><SPAN STYLE="white-space:nowrap;">7 495</SPAN></TD>
+<TD CLASS="R11C2">Видеокамера HikVision 2Мп уличная купольная HD-TVI камера DS-T203S (2.8 mm) EXIR ИК 30м, 1/2.7 CMOS, 2.8мм, угол 106°, мех ИК-фильтр, WDR 120дБ, HLC, </TD>
+<TD CLASS="R11C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3"><SPAN></SPAN></TD>
+<TD CLASS="R11C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">18.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">2 262</SPAN></TD>
+<TD CLASS="R22C2">Видеокамера IP</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">10</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">19.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">7 006</SPAN></TD>
+<TD CLASS="R22C2">Видеокамера IP HIKVISION DS-2CD2542FWD-IS</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">2</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">20.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">9 044</SPAN></TD>
+<TD CLASS="R16C2">Видеокамера IP LTV CNE-640 5G 4мп, MTZ объектив 7-22мм LTV CNE-640 5G (LTV)</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">21.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 750</SPAN></TD>
+<TD CLASS="R22C2">Видеокамера маленькая</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">2</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">22.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 035</SPAN></TD>
+<TD CLASS="R22C2">Видеокамера на вход</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">23.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 464</SPAN></TD>
+<TD CLASS="R22C2">Видеокамера уличная</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">24</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">24.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 747</SPAN></TD>
+<TD CLASS="R22C2">Видеорегистратор 16-канальный</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">43</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">25.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 040</SPAN></TD>
+<TD CLASS="R22C2">Жесткий диск  1TB</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">2</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">26.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 223</SPAN></TD>
+<TD CLASS="R22C2">Жесткий диск  2TB</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">13</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">27.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">3 868</SPAN></TD>
+<TD CLASS="R22C2">Жесткий диск 3 Tb</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">6</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">28.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">8 439</SPAN></TD>
+<TD CLASS="R16C2">Жесткий диск SATA 4TB 6GB/S 64MB PURPLE WD40PURZ WDC</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">29</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">29.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">4 904</SPAN></TD>
+<TD CLASS="R16C2">Жесткий диск Seagate Original SATA-III 4Tb ST4000DM004 Barracuda (5400rpm) 256Mb 3.5"</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">207</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">30.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">6 725</SPAN></TD>
+<TD CLASS="R16C2">Жесткий диск Toshiba SATA-III 4Tb HDWD240UZSVA P300 (5400rpm) 128Mb 3.5"</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">142</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">31.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">6 646</SPAN></TD>
+<TD CLASS="R16C2">Камера AHD HikVision купольная 2Мп 1920х1080 / DS-2CE56D0T-IRMMF(2.8mm)</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">2</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">32.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">8 911</SPAN></TD>
+<TD CLASS="R16C2">Камера HD-TVI 2MP DOME DS-T203S 2.8 MM HIKVISION</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">100</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">33.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 749</SPAN></TD>
+<TD CLASS="R22C2">Объектив</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">34.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">4 773</SPAN></TD>
+<TD CLASS="R16C2">Потолочный громкоговоритель ROXTON PA-03T</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">128</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R16>
+<TD CLASS="R16C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">35.</SPAN></TD>
+<TD CLASS="R16C0"><SPAN STYLE="white-space:nowrap;">735</SPAN></TD>
+<TD CLASS="R16C2">Прибор приемо контрольный охранно-пожарный</TD>
+<TD CLASS="R16C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3"><SPAN></SPAN></TD>
+<TD CLASS="R16C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">36.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">3 905</SPAN></TD>
+<TD CLASS="R22C2">Ремкомплект для сервера VIDEOMAX</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">1</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">37.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">1 744</SPAN></TD>
+<TD CLASS="R22C2">Сервер VIDEOMAX</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">3</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">38.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">4 777</SPAN></TD>
+<TD CLASS="R22C2">Усилитель ROXTON AA-35</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">230</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">39.</SPAN></TD>
+<TD CLASS="R22C0"><SPAN STYLE="white-space:nowrap;">570</SPAN></TD>
+<TD CLASS="R22C2">Усилитель озвучки</TD>
+<TD CLASS="R22C3"><SPAN STYLE="white-space:nowrap;">2</SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3"><SPAN></SPAN></TD>
+<TD CLASS="R22C3" COLSPAN=3><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">40.</SPAN></TD>
+<TD CLASS="R22C0"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R50C2"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3" COLSPAN=3><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">41.</SPAN></TD>
+<TD CLASS="R22C0"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R50C2"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3" COLSPAN=3><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">42.</SPAN></TD>
+<TD CLASS="R22C0"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R50C2"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3" COLSPAN=3><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">43.</SPAN></TD>
+<TD CLASS="R22C0"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R50C2"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3" COLSPAN=3><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">44.</SPAN></TD>
+<TD CLASS="R22C0"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R50C2"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3" COLSPAN=3><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R22>
+<TD CLASS="R22C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">45.</SPAN></TD>
+<TD CLASS="R22C0"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R50C2"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3"><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R22C3" COLSPAN=3><DIV STYLE="width:100%;height:15px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:15px;overflow:hidden;"></DIV></TD>
+</TR>
+<TR CLASS=R56>
+<TD CLASS="R56C0" STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:35px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R56C0" COLSPAN=10><DIV STYLE="width:100%;height:35px;overflow:hidden;"><SPAN STYLE="white-space:nowrap;">Все&nbsp;остатки&nbsp;товарно-материальных&nbsp;ценностей&nbsp;поименованные&nbsp;в&nbsp;данной&nbsp;учетной&nbsp;ведомости&nbsp;с&nbsp;позиции&nbsp;№&nbsp;______<BR>по&nbsp;№&nbsp;______,&nbsp;проверены&nbsp;комиссией&nbsp;в&nbsp;натуре&nbsp;и&nbsp;внесены&nbsp;в&nbsp;учетную&nbsp;ведомость&nbsp;в&nbsp;графу&nbsp;"фактически".</SPAN></TD>
+</TR>
+<TR CLASS=R1>
+<TD STYLE=" border-left-style: none;"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD>&nbsp;</TD>
+</TR>
+<TR CLASS=R1>
+<TD STYLE=" border-left-style: none;"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD COLSPAN=9><SPAN STYLE="white-space:nowrap;">Подписи&nbsp;(Ф.И.О.&nbsp;разборчиво)</SPAN></TD>
+</TR>
+<TR CLASS=R59>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:8px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R60>
+<TD STYLE=" border-left-style: none;"><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD CLASS="R60C2" COLSPAN=9><SPAN STYLE="white-space:nowrap;">Члены&nbsp;Комиссии&nbsp;:</SPAN></TD>
+</TR>
+<TR CLASS=R2>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R62>
+<TD CLASS="R62C2" COLSPAN=4 STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">Должность</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN STYLE="white-space:nowrap;">Подпись</SPAN></TD>
+<TD CLASS="R62C2"><SPAN STYLE="white-space:nowrap;">Расшифровка&nbsp;подписи</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R62>
+<TD CLASS="R62C2" COLSPAN=4 STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">Должность</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN STYLE="white-space:nowrap;">Подпись</SPAN></TD>
+<TD CLASS="R62C2"><SPAN STYLE="white-space:nowrap;">Расшифровка&nbsp;подписи</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R62>
+<TD CLASS="R62C2" COLSPAN=4 STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">Должность</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN STYLE="white-space:nowrap;">Подпись</SPAN></TD>
+<TD CLASS="R62C2"><SPAN STYLE="white-space:nowrap;">Расшифровка&nbsp;подписи</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+<TR CLASS=R2>
+<TD STYLE=" border-left-style: none;"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD CLASS="R2C9"><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;"><SPAN></SPAN></DIV></TD>
+<TD><DIV STYLE="width:100%;height:20px;overflow:hidden;">&nbsp;</DIV></TD>
+</TR>
+<TR CLASS=R62>
+<TD CLASS="R62C2" COLSPAN=4 STYLE=" border-left-style: none;"><SPAN STYLE="white-space:nowrap;">Должность</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN STYLE="white-space:nowrap;">Подпись</SPAN></TD>
+<TD CLASS="R62C2"><SPAN STYLE="white-space:nowrap;">Расшифровка&nbsp;подписи</SPAN></TD>
+<TD CLASS="R62C2" COLSPAN=2><SPAN></SPAN></TD>
+<TD><SPAN></SPAN></TD>
+<TD></TD>
+</TR>
+</TABLE>
+</BODY>
+</HTML>
